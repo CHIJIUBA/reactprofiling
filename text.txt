@@ -1,0 +1,37 @@
+<main className="main">
+
+    {/* <!-- Hero Section --> */}
+    <section id="hero" className="hero section">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in"/>
+
+      <div className="container text-center" data-aos="zoom-out" data-aos-delay="100">
+        <div className="row justify-content-center">
+          <div className="col-lg-8">
+            <h2>Kelly Adams</h2>
+            <p>I'm a professional illustrator from San Francisco</p>
+            <a href="about.html" className="btn-get-started">About Me</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    {/* <!-- /Hero Section --> */}
+
+  </main>
+
+  <footer id="footer" className="footer light-background">
+
+    <div className="container">
+      <div className="copyright text-center ">
+        <p>© <span>Copyright</span> <strong className="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br/></span></p>
+      </div>
+      <div className="social-links d-flex justify-content-center">
+        <a href=""><i className="bi bi-twitter-x"></i></a>
+        <a href=""><i className="bi bi-facebook"></i></a>
+        <a href=""><i className="bi bi-instagram"></i></a>
+        <a href=""><i className="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+
+  </footer>
