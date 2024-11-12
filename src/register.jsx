@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 const Register = () => {
 
     const navigate = useNavigate();
+    document.getElementById("registerlink").classList.add("active");
 
     // const somethingHappen = (e) => {
     //     e.preventDefault();

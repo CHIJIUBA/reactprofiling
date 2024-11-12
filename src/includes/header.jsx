@@ -17,8 +17,8 @@ const Header = () => {
                 <ul>
                 <li><Link to="/home" id="homelink">Home</Link></li>
                 {/* <Link to="home" className="active">Home</Link> */}
-                <li><Link to="/login">Login</Link></li>
-                <li><Link to="/register">Register</Link></li>
+                <li><Link to="/login" id="loginlink">Login</Link></li>
+                <li><Link to="/register" id="registerlink">Register</Link></li>
                 <li><a>Services</a></li>
                 <li><a>Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
