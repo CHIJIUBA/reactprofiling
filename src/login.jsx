@@ -7,7 +7,6 @@ import { useNavigate } from "react-router-dom";
 const Login = () => {
 
     const navigate = useNavigate();
-    // document.getElementById("loginlink").classList.add("active");
     
 
     const  handleSubmit = async (e) => {

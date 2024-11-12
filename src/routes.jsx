@@ -5,6 +5,22 @@ import Home from "./home";
 import Show from "./body";
 import Login from "./login";
 import Register from "./register";
+import Dashboard from "./dashboard";
+import ProtectedRoute from "./ProtectedRoute";
+
+
+// Function to get the access token from cookies
+const isAuthenticated = () => {
+    let access = localStorage.getItem("token");
+
+    if(access == " ") {
+        return false;
+    }
+
+    return true;
+}
+
+isAuthenticated();
 
 const routes = [
     {
@@ -12,6 +28,15 @@ const routes = [
         element: <App />,
         errorElement: <ErrorPage />,
     },
+    {
+        element: <ProtectedRoute isAuthenticated={isAuthenticated()} />,
+        children: [
+            {
+                path: "dashboard",
+                element: <Dashboard/>,
+            },
+        ]
+      },
     {
         path: "profile/:name",
         element: <Profile />,

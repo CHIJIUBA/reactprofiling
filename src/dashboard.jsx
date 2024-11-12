@@ -1,8 +1,11 @@
 import { Consumer } from "./context/context";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import Header from "./includes/header";
+import Footer from "./includes/footer";
+import { Provider } from "./context/context";
 
-const Show = () =>  {
+const Dashboard = () =>  {
 
     const [user, setUser] = useState({username: "Chijiuba Victory", logged_in_as: "User"});
     const  handleSubmit = async (e) => {
@@ -16,7 +19,6 @@ const Show = () =>  {
             .then((response) => {
                 console.log(response.data);
                 setUser(response.data);
-                localStorage.setItem("token", " ");
             }
             )
         } 
@@ -26,7 +28,8 @@ const Show = () =>  {
     }
 
     return(
-        <>
+        <Provider value={{name:"Chijiuba Victory", id:195, username: "Chijiuba"}}>
+        <Header/>
         <main className="main">
 
             {/* <!-- Hero Section --> */}
@@ -48,8 +51,9 @@ const Show = () =>  {
             </section>
             {/* <!-- /Hero Section --> */}
         </main>
-        </>
+        <Footer/>
+        </Provider>
     );
 }
 
-export default Show;
+export default Dashboard;

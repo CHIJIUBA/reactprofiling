@@ -7,20 +7,7 @@ import { useNavigate } from "react-router-dom";
 const Register = () => {
 
     const navigate = useNavigate();
-    // document.getElementById("registerlink").classList.add("active");
 
-    // const somethingHappen = (e) => {
-    //     e.preventDefault();
-
-    //     let password = document.getElementById("password").value;
-    //     let username = document.getElementById("username").value;
-    //     let email = document.getElementById("email").value;
-
-
-    //     console.log(password, username, email);
-        
-    // }
-    
 
     const  handleSubmit = async (e) => {
         e.preventDefault();
