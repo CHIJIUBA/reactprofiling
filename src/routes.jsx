@@ -20,8 +20,6 @@ const isAuthenticated = () => {
     return true;
 }
 
-isAuthenticated();
-
 const routes = [
     {
         path: "/",
