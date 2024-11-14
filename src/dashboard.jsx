@@ -11,7 +11,7 @@ const Dashboard = () =>  {
     const  handleSubmit = async (e) => {
 
         try {
-            const response = await axios.get("http://localhost:5000/user", {
+            const response = await axios.get("https://social-ygv4.onrender.com/user", {
                 headers: {
                     Authorization: `Bearer ${localStorage.getItem("token")}`
                   }

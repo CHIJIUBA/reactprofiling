@@ -17,7 +17,7 @@ const Register = () => {
         let email = document.getElementById("email").value;
 
         try {
-            const response = await axios.post("http://localhost:5000/register", {
+            const response = await axios.post("https://social-ygv4.onrender.com/register", {
                 username: username,
                 password: password,
                 email: email

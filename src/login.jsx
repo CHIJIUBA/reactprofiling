@@ -17,7 +17,7 @@ const Login = () => {
         let email = document.getElementById("email").value;
 
         try {
-            const response = await axios.post("http://localhost:5000/login", {
+            const response = await axios.post("https://social-ygv4.onrender.com/login", {
                 email: email,
                 password: password
             })
