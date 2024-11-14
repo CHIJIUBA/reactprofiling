@@ -18,7 +18,7 @@ const ProtectedRoute = ({ isAuthenticated }) => {
 
             navigate("/login");
 
-        }, [])
+        }, [isAuthenticated])
     }
 };
 
