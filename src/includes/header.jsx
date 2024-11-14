@@ -19,7 +19,7 @@ const Header = () => {
                 {/* <Link to="home" className="active">Home</Link> */}
                 <li><Link to="/login" id="loginlink">Login</Link></li>
                 <li><Link to="/register" id="registerlink">Register</Link></li>
-                <li><a>Services</a></li>
+                <li><Link to="/dashboard">Dashboard</Link></li>
                 <li><a>Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 </ul>
