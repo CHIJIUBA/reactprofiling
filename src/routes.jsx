@@ -40,7 +40,7 @@ const routes = [
         element: <Profile />,
     },
     {
-        path: "/",
+        path: "home",
         element: <Home />,
     },
     {
