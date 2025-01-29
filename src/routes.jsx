@@ -23,7 +23,7 @@ const isAuthenticated = () => {
 const routes = [
     {
         path: "/",
-        element: <App />,
+        element: <Home />,,
         errorElement: <ErrorPage />,
     },
     {
