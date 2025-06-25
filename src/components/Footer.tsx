@@ -19,8 +19,8 @@ const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-gray-600 dark:text-gray-300 mb-4 max-w-md">
-              Backend Developer specializing in scalable systems, API design, and cloud architecture. 
-              Building the infrastructure that powers modern applications.
+              Backend Developer specializing in scalable systems, API design, and cloud
+              architecture. Building the infrastructure that powers modern applications.
             </p>
             <div className="flex items-center space-x-2 text-gray-600 dark:text-gray-300">
               <span>Made with</span>
@@ -58,9 +58,7 @@ const Footer: React.FC = () => {
 
           {/* Tech Stack */}
           <div>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-              Tech Stack
-            </h3>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Tech Stack</h3>
             <ul className="space-y-2 text-gray-600 dark:text-gray-300">
               <li>Python & Go</li>
               <li>FastAPI & Django</li>
