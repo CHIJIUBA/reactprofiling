@@ -44,7 +44,7 @@ const Header: React.FC = () => {
               <Terminal className="w-5 h-5" />
             </div>
             <span className="text-xl font-bold text-gray-900 dark:text-white font-mono">
-              chijiuba.victory
+              dev.chijiuba
             </span>
           </div>
 
