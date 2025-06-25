@@ -2,7 +2,7 @@
   "name": "Web Developer App",
   "short_name": "Developer",
   "description": "Practice and prepare for the AWS Certified Cloud Practitioner exam with realistic multiple-choice questions.",
-  "start_url": "/index.html",
+  "start_url": "../index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#232f3e",
