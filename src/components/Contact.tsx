@@ -6,13 +6,13 @@ const Contact: React.FC = () => {
     name: '',
     email: '',
     subject: '',
-    message: '',
+    message: ''
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value,
+      [e.target.name]: e.target.value
     });
   };
 
@@ -29,20 +29,20 @@ const Contact: React.FC = () => {
       icon: Mail,
       title: 'Email',
       content: 'hello@example.com',
-      link: 'mailto:hello@example.com',
+      link: 'mailto:hello@example.com'
     },
     {
       icon: Phone,
       title: 'Phone',
       content: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      link: 'tel:+15551234567'
     },
     {
       icon: MapPin,
       title: 'Location',
       content: 'San Francisco, CA',
-      link: null,
-    },
+      link: null
+    }
   ];
 
   const socialLinks = [
@@ -50,20 +50,20 @@ const Contact: React.FC = () => {
       icon: Github,
       name: 'GitHub',
       url: 'https://github.com',
-      color: 'hover:text-gray-900 dark:hover:text-white',
+      color: 'hover:text-gray-900 dark:hover:text-white'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
       url: 'https://linkedin.com',
-      color: 'hover:text-blue-600',
+      color: 'hover:text-blue-600'
     },
     {
       icon: Twitter,
       name: 'Twitter',
       url: 'https://twitter.com',
-      color: 'hover:text-blue-400',
-    },
+      color: 'hover:text-blue-400'
+    }
   ];
 
   return (
@@ -74,7 +74,8 @@ const Contact: React.FC = () => {
             Let's Work Together
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Ready to discuss your next backend project? I'm always interested in challenging opportunities and innovative solutions.
+            Ready to discuss your next backend project? I'm always interested in challenging
+            opportunities and innovative solutions.
           </p>
         </div>
 
@@ -86,9 +87,9 @@ const Contact: React.FC = () => {
                 Get In Touch
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-8">
-                I'm currently available for freelance projects and full-time opportunities. 
-                Whether you need help with API design, database optimization, or cloud architecture, 
-                let's discuss how I can help bring your project to life.
+                I'm currently available for freelance projects and full-time opportunities. Whether
+                you need help with API design, database optimization, or cloud architecture, let's
+                discuss how I can help bring your project to life.
               </p>
             </div>
 
@@ -151,7 +152,10 @@ const Contact: React.FC = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    <label
+                      htmlFor="name"
+                      className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                    >
                       Name
                     </label>
                     <input
@@ -166,7 +170,10 @@ const Contact: React.FC = () => {
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                    >
                       Email
                     </label>
                     <input
@@ -183,7 +190,10 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                  <label
+                    htmlFor="subject"
+                    className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                  >
                     Subject
                   </label>
                   <input
@@ -199,7 +209,10 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                  <label
+                    htmlFor="message"
+                    className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                  >
                     Message
                   </label>
                   <textarea
