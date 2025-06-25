@@ -1,6 +1,6 @@
 {
-  "name": "My AWS Cloud Prep App",
-  "short_name": "AWS Prep",
+  "name": "Web Developer App",
+  "short_name": "Developer",
   "description": "Practice and prepare for the AWS Certified Cloud Practitioner exam with realistic multiple-choice questions.",
   "start_url": "/index.html",
   "display": "standalone",
