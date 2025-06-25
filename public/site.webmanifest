@@ -1,6 +1,6 @@
 {
-  "name": "Web Developer App",
-  "short_name": "Developer",
+  "name": "Saveek Shopping",
+  "short_name": "Saveek",
   "description": "Practice and prepare for the AWS Certified Cloud Practitioner exam with realistic multiple-choice questions.",
   "start_url": "../index.html",
   "display": "standalone",
