@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in">
-            Backend Developer
+            Frontend Developer
             <span className="block text-primary-400 font-mono">
               | API Architect | Cloud Solutions
             </span>
